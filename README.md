@@ -7,7 +7,7 @@ Showing dump result in a pop-up window makes you available to:
 * use it in mobile development
 
 ### Example
-```
+```javascript
 // dump navigator properties
 $.dump(
   window.navigator,  /* any object to dump */
