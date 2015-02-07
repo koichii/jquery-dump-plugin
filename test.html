@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+</head>
+<body>
+
+  <div id="test">
+    VENI VIDI VICI
+  </div>
+
+  <div>
+    LOREM IPSUM
+  </div>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="jquery.dump.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      //$.dump("off");
+      
+      $.dump(window.navigator, 1, "window.navigator");
+      //$("div").dump(3);
+    });
+  </script>
+</body>
+</html>
